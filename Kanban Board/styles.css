@@ -1,0 +1,34 @@
+body {
+    background: #0f172a;
+  }
+  
+  h1 {
+    color: #cbd5e1;
+  }
+  
+  .board {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: #1e293b;
+    margin: 10px;
+    min-width: 50px;
+  }
+  
+  .card {
+    padding: 10px;
+    background-color: #334155;
+    border-radius: 6px;
+    color: #cbd5e1;
+    margin: 10px 0px;
+    cursor: move;
+  }
+  
+  .hovered {
+    opacity: 0.8;
+  }
+  
